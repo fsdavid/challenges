@@ -1,0 +1,18 @@
+FROM node:14-alpine
+
+WORKDIR /app
+
+COPY package.json .
+RUN npm install
+
+COPY . .
+
+ARG DEFAULT_PORT=3333
+ENV PORT $DEFAULT_PORT
+
+ARG DEFAULT_URL
+ENV BASE_URL $DEFAULT_URL
+
+EXPOSE $PORT
+
+CMD [ "npm", "start" ]

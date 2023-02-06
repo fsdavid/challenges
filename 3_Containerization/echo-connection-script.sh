@@ -1,0 +1,1 @@
+ping -c 1 servera &> /dev/null && echo Server B is connected to Server A! || echo Failed connecting to Server A!

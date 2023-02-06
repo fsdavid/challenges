@@ -1,0 +1,1 @@
+python test_graph_node_depth.py || python3 test_graph_node_depth.py
