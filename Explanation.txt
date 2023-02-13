@@ -1,4 +1,0 @@
-As connection weigth or strength is not mentioned in the task. I assumed that it is the same for each connection, so I've used binary matrix to store the data.
-
-If you are able to run shell, please use 'sh {relative_path}/run.sh'. Otherwise run "python {relative_path}/test_graph_node_depth.py"
-
